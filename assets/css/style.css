@@ -1,4 +1,32 @@
+#nav {
+  height: 70px;
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #logo {
-    width: 64px;
-    height: 64px;
+  width: 150px;
+  height: 120px;
+  margin-left: 65px;
+  position: fixed;
+  top: -20px;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 32px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  
+  background: linear-gradient(to right, #f8b500, #fceabb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 200px;
+}
+
+#tabs {
+  margin-right: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
 }

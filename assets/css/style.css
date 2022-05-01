@@ -64,7 +64,7 @@ H3 {
 
 #carousel {
     margin: 30px 0;
-    height: 500px;
+    height: 550px;
     box-shadow: 5px 10px 25px #888888;
     background: #43C6AC;
     background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
@@ -72,21 +72,32 @@ H3 {
 }
 
 #uni_card {
-    margin: 30px;
-    height: 450px;
+    margin: 20px;
+    height: 500px;
     border-radius:15px;
 }
 
+#uni_logo {
+    border-radius: 50%;
+}
+
 #card_header {
-    border-radius:15px 15px 0 0; 
-    height: 60px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 800;
-    color: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-    text-align: center;
+    border-radius:15px 15px 0 0;
+    box-shadow: 0 10px 15px #888888; 
+    max-height: 70px;
+    display: table;
+    width: 100%;
     background: #F2994A;
     background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A);
     background: linear-gradient(to bottom, #F2C94C, #F2994A);
+}
+
+H5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
@@ -121,7 +132,4 @@ A:active { text-decoration: none; }
   font-weight: 500;
 }
 
-#checklist {
-  float : right;
-  right:0;
-}
+

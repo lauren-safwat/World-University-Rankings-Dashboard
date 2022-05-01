@@ -84,6 +84,7 @@ A:visited { text-decoration: none; }
 A:hover { text-decoration: none; }
 A:active { text-decoration: none; }
 
-#card_header.A: link{
-    text-decoration: none;
+
+#map_table {
+    padding-top: 150px;
 }

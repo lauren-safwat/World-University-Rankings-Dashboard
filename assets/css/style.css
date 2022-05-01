@@ -39,8 +39,8 @@
 #tabs {
     font-family: 'Lobster', cursive;
     font-weight: 800;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 28px;
     right: 50px;
 }
 
@@ -82,6 +82,7 @@ H3 {
     height: 60px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 800;
+    color: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     text-align: center;
     background: #F2994A;
     background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A);

@@ -96,5 +96,31 @@ A:active { text-decoration: none; }
 
 
 #map_table {
-    padding-top: 150px;
+    padding-top: 20px;
+}
+
+#controls_row {
+  padding: 40px 0px;
+}
+
+#table {
+  margin-top: 15px;
+	border-collapse: collapse;
+	box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  border-style: hidden;
+  background:#ffffff
+}
+
+
+
+
+#page_title {
+  padding-top:120px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+#checklist {
+  float : right;
+  right:0;
 }

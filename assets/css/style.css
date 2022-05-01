@@ -1,46 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,200');
+
+
+.dashboard {
+  background-image: linear-gradient(to right bottom, #d8d2e8, #e1ddee, #ebe8f4, #f5f4f9, #ffffff);
+
+}
+
+
 #nav {
-  height: 70px;
-  background: #43C6AC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC);
 }
 
 #logo {
-  width: 150px;
-  height: 120px;
-  margin-left: 65px;
-  position: fixed;
-  top: -20px;
+    width: 150px;
+    height: 120px;
+    left: 80px;
+    position: fixed;
+    top: -20px;
 }
 
 #title {
-  font-family: 'Lobster', cursive;
-  font-size: 32px;
-  font-weight: 800;
-  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  
-  background: linear-gradient(to right, #f8b500, #fceabb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-left: 200px;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  
+    background: linear-gradient(to right, #f8b500, #fceabb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 200px;
 }
 
 #tabs {
-  margin-right: 40px;
-  position: absolute;
-  bottom: 0;
-  right: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
 }
 
+
+
 #page2_title {
-  margin-top: 50px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 500;
+    margin-top: 120px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
 }
 
 .dropDowns {
-  margin-top: 50px;
+    margin: 40px 0;
+}
+
+#carousel {
+    margin: 30px 0;
+    height: 460px;
+    box-shadow: 5px 10px 25px #888888;
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
+    background: linear-gradient(to bottom, #191654, #43C6AC);
 }
 
 #uni_card {
-   margin: 10px 10px 10px 10px;
+    margin: 30px;
+    height: 400px;
+    border-radius:15px;
+}
+
+#card_header {
+    border-radius:15px 15px 0 0; 
+    height: 60px;
+    background: #F2994A;
+    background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A);
+    background: linear-gradient(to bottom, #F2C94C, #F2994A);
+}
+
+A:link { text-decoration: none; }
+A:visited { text-decoration: none; }
+A:hover { text-decoration: none; }
+A:active { text-decoration: none; }
+
+#card_header.A: link{
+    text-decoration: none;
 }

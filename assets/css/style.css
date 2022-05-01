@@ -30,3 +30,13 @@
   bottom: 0;
   right: 50px;
 }
+
+#page2_title {
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+.dropDowns {
+  margin-top: 50px;
+}

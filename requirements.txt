@@ -1,7 +1,6 @@
 absl-py==1.0.0
 ansi2html==1.7.0
 appdirs==1.4.3
-apturl==0.5.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.5

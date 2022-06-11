@@ -8,18 +8,14 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-from dash import Dash, html, dcc, no_update
-from dash.dependencies import Input, Output, State
-from dash.exceptions import PreventUpdate
+from dash import Dash, html, dcc
+from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import dash_trich_components as dtc
 
 import plotly.express as px
 import plotly.graph_objs as go
-from plotly.subplots import make_subplots
 
-from math import ceil
 from itertools import cycle
 
 

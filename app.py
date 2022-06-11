@@ -6,6 +6,7 @@
 # In[2]:
 
 
+import os
 import pandas as pd
 import numpy as np
 from dash import Dash, html, dcc
@@ -17,16 +18,12 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 from itertools import cycle
-# import socket
 
-# udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-# udp.bind((UDP_IP, UDP_PORT))
-# udp.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 # In[5]:
 
 
-unis = pd.read_csv('dataset/World_University_Rankings.csv')
+unis = pd.read_csv('/dataset/World_University_Rankings.csv')
 
 
 # In[6]:
@@ -43,8 +40,8 @@ unis.info()
 
 # In[8]:
 
-
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, 'assets/css/style.css'], suppress_callback_exceptions=True)
+assets_path = os.getcwd() +'/assets'
+app = Dash(assets_folder=assets_path, external_stylesheets=[dbc.themes.BOOTSTRAP, app.get_asset_url('css/style.css')], suppress_callback_exceptions=True)
 
 
 # In[9]:

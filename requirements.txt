@@ -163,7 +163,6 @@ tornado==6.1
 traitlets==5.2.2.post1
 txt2tags==3.7
 typing_extensions==4.1.1
-ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7

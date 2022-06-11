@@ -584,7 +584,5 @@ def display_content(active_tab):
 
 # In[21]:
 
-!kill -9 $(ps -A | grep python | awk '{print $1}')
-
 server = app.server
 

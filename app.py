@@ -23,7 +23,7 @@ from itertools import cycle
 # In[5]:
 
 
-unis = pd.read_csv('/dataset/World_University_Rankings.csv')
+unis = pd.read_csv('dataset/World_University_Rankings.csv')
 
 
 # In[6]:

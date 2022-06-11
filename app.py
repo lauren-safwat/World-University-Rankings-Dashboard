@@ -40,8 +40,7 @@ unis.info()
 
 # In[8]:
 
-assets_path = os.getcwd() +'/assets'
-app = Dash(__name__, assets_folder=assets_path, external_stylesheets=[dbc.themes.BOOTSTRAP, app.get_asset_url('css/style.css')], suppress_callback_exceptions=True)
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, 'assets/css/style.css'], suppress_callback_exceptions=True)
 
 
 # In[9]:

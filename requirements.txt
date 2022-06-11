@@ -29,7 +29,6 @@ dash-trich-components==1.0.0
 dbus-python==1.2.16
 debugpy==1.6.0
 decorator==5.1.1
-defer==1.0.6
 defusedxml==0.7.1
 distlib==0.3.0
 distro==1.4.0

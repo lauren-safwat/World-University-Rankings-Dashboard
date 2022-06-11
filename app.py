@@ -41,7 +41,7 @@ unis.info()
 # In[8]:
 
 assets_path = os.getcwd() +'/assets'
-app = Dash(assets_folder=assets_path, external_stylesheets=[dbc.themes.BOOTSTRAP, app.get_asset_url('css/style.css')], suppress_callback_exceptions=True)
+app = Dash(__name__, assets_folder=assets_path, external_stylesheets=[dbc.themes.BOOTSTRAP, app.get_asset_url('css/style.css')], suppress_callback_exceptions=True)
 
 
 # In[9]:
@@ -586,5 +586,5 @@ def display_content(active_tab):
 
 !kill -9 $(ps -A | grep python | awk '{print $1}')
 
-app.run_server()
+server = app.server
 

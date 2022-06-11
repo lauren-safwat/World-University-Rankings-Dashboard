@@ -17,10 +17,11 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 from itertools import cycle
+# import socket
 
-udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-udp.bind((UDP_IP, UDP_PORT))
-udp.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+# udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+# udp.bind((UDP_IP, UDP_PORT))
+# udp.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 # In[5]:
 
